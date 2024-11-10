@@ -1,0 +1,277 @@
+:root {
+  --player-bar-height: 105px;
+}
+
+/* General Resetting */
+.main-rootlist-rootlistDividerGradient {
+  background: unset;
+}
+
+input {
+  background-color: unset !important;
+  border-bottom: solid 1px var(--spice-text) !important;
+  border-radius: 0 !important;
+  padding: 6px 10px 6px 48px;
+  color: var(--spice-text) !important;
+}
+
+.x-searchInput-searchInputSearchIcon,
+.x-searchInput-searchInputClearButton {
+  color: var(--spice-text) !important;
+}
+
+.main-home-homeHeader,
+.x-entityHeader-overlay,
+.x-actionBarBackground-background,
+.main-actionBarBackground-background,
+.main-entityHeader-overlay,
+.main-entityHeader-backgroundColor {
+  background-color: unset !important;
+  background-image: unset !important;
+}
+
+/* Play Button */
+.main-playButton-PlayButton.main-playButton-primary {
+  color: white;
+}
+
+/* Connect */
+.connect-title,
+.connect-header {
+  display: none;
+}
+
+.connect-device-list {
+  margin: 0px -5px;
+}
+
+/* Progress Bar */
+.x-progressBar-fillColor {
+  background-color: #bd3b61;
+}
+
+.x-progressBar-sliderArea {
+  background-color: #de88a1;
+}
+
+/* Topbar */
+.main-topBar-background {
+  background-color: unset !important;
+}
+
+.main-topBar-overlay {
+  background-color: var(--spice-main);
+}
+
+/* Shadows */
+.main-entityHeader-shadow,
+.connect-device-list-container {
+  box-shadow: 0 4px 20px rgba(var(--spice-rgb-shadow), 0.2);
+}
+
+/* Track List */
+.main-trackList-playingIcon {
+  filter: grayscale(1);
+}
+
+/* Active Track List Row */
+.main-trackList-trackListRow.main-trackList-active:hover
+  .main-trackList-rowMarker,
+.main-trackList-trackListRow.main-trackList-active:hover
+  .main-trackList-rowTitle,
+.main-trackList-trackListRow.main-trackList-active:focus-within
+  .main-trackList-rowMarker,
+.main-trackList-trackListRow.main-trackList-active:focus-within
+  .main-trackList-rowTitle {
+  color: var(--spice-button);
+}
+
+/* Metadata */
+.main-entityHeader-metaDataText,
+.main-duration-container {
+  color: var(--spice-subtext);
+}
+
+/* Verified Artist Badge */
+span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
+  fill: black;
+}
+
+/* Header Text Styling */
+.main-entityHeader-withBackgroundImage .main-entityHeader-headerText {
+  justify-content: center;
+}
+
+.main-entityHeader-container.main-entityHeader-nonWrapped.main-entityHeader-withBackgroundImage {
+  padding-left: 9%;
+}
+
+/* Playlist Highlight */
+.main-rootlist-rootlistItemLink.main-rootlist-rootlistItemLinkActive {
+  background: var(--spice-button);
+  border-radius: 4px;
+  padding: 0 10px;
+  margin: 0 5px 0 -10px;
+}
+
+/* Cards and Containers */
+.view-homeShortcutsGrid-shortcut,
+.lyrics-lyrics-background,
+.Card {
+  background-color: var(--spice-card);
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-card-imageContainer * {
+  border-radius: 15px !important;
+}
+
+/* Right Sidebar */
+.Root__right-sidebar,
+.Root__right-sidebar * {
+  background-color: var(--spice-card) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+
+.encore-internal-color-text-subdued,
+.encore-internal-color-text-subdued * {
+  color: black !important;
+}
+
+.Root__right-sidebar::before,
+.Root__right-sidebar::after,
+.Root__right-sidebar *::before,
+.Root__right-sidebar *::after {
+  background-color: var(--spice-card) !important;
+  box-shadow: none !important;
+  content: none !important;
+}
+
+.Root__right-sidebar > * {
+  position: static !important;
+  height: auto !important;
+}
+
+/* Now Playing View */
+.main-nowPlayingView-section,
+.main-nowPlayingView-section * {
+  background-color: var(--spice-main) !important;
+}
+
+.main-nowPlayingView-section {
+  border-radius: 4px;
+}
+
+/* Filter Chips & Action Bar */
+.main-home-filterChipsSection,
+.EmeHQXR87mUskYK6xEde > :nth-child(1),
+.main-view-container__scroll-node-child
+  > :nth-child(1)
+  > :nth-child(1)
+  > .contentSpacing,
+.main-actionBar-ActionBar,
+.main-useDropTarget-base {
+  background-color: var(--spice-main) !important;
+}
+
+/* Section Header Spacing */
+.main-nowPlayingView-sectionHeaderSpacing,
+.main-nowPlayingView-sectionHeaderSpacing * {
+  background-color: var(--spice-main) !important;
+}
+
+/* Lyrics */
+.lyrics-lyricsContent-lyric {
+  color: var(--spice-text) !important;
+}
+
+.lyrics-lyricsContent-highlight {
+  color: #071e22 !important;
+}
+
+.main-entityHeader-headerText *,
+.encore-text-title-small,
+.lyrics-lyricsContent-active {
+  color: white !important;
+}
+
+/* Context Menu */
+.main-contextMenu-menu * {
+  color: var(--spice-main) !important;
+  cursor: pointer;
+}
+
+.main-contextMenu-menu {
+  background-color: var(--spice-button-active);
+}
+
+.main-contextMenu-menuHeading,
+.main-contextMenu-menuItemButton,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):focus,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):hover {
+  color: var(--spice-text);
+}
+
+/* Navigation Bar */
+.main-navBar-navBarLinkActive {
+  background: var(--spice-button);
+}
+
+div.GlueDropTarget.personal-library > *.active {
+  background: var(--spice-button) !important;
+}
+
+/* Buttons */
+.main-genericButton-button {
+  color: black;
+}
+
+/* Play/Pause Button */
+.main-playPauseButton-button {
+  background-color: var(--spice-button);
+  color: white;
+}
+
+/* Queue Header */
+.queue-queue-title,
+.queue-playHistory-title {
+  color: var(--spice-text) !important;
+}
+
+/* Card Image */
+.main-cardImage-imageWrapper {
+  background-color: transparent;
+}
+
+.main-rootlist-rootlistPlaylistsScrollNode {
+  padding: 0;
+}
+
+#spicetify-playlist-list {
+  padding-top: 8px;
+}
+
+.main-collectionLinkButton-collectionLinkButton .main-collectionLinkButton-icon,
+.main-collectionLinkButton-collectionLinkButton
+  .main-collectionLinkButton-collectionLinkText {
+  opacity: 1;
+}
+
+.link-subtle {
+  color: var(--spice-text);
+}
+
+/* Player Bar */
+.main-nowPlayingBar-nowPlayingBar {
+  height: var(--player-bar-height);
+}
+
+.Root__now-playing-bar{
+	background-color: var(--spice-main-elevated) !important;
+	border-radius: 15px;
+	padding-left: 1rem !important;
+	padding-right: 2rem !important;
+}

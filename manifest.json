@@ -1,0 +1,10 @@
+{
+    "name": "Pinkers",
+    "description": "a very pink theme!",
+    "preview": "/imgs/preview.png",
+    "readme": "README.md",
+    "usercss": "user.css",
+    "schemes": "color.ini",
+    "include": ["https://your-github-username.github.io/your-repo/filepathFromGitRepo/extension.js"],
+    "tags": ["pink", "light"]
+}
