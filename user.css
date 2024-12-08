@@ -52,7 +52,7 @@ input {
 
 .canvasVideoContainerNPV {
   /* blur it */
-  filter: blur(10px);
+  filter: blur(2px);
   /* transition into the sides of the container */
   mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
 }
