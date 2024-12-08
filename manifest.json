@@ -3,7 +3,6 @@
     "description": "a very pink theme!",
     "preview": "/imgs/preview.png",
     "readme": "README.md",
-    "include": ["./test.js"],
     "usercss": "user.css",
     "schemes": "color.ini",
     "tags": ["pink", "light"]

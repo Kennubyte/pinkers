@@ -50,6 +50,13 @@ input {
   background-color: var(--spice-progress-fill);
 }
 
+.canvasVideoContainerNPV {
+  /* blur it */
+  filter: blur(10px);
+  /* transition into the sides of the container */
+  mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
+
 .x-progressBar-sliderArea {
   background-color: var(--spice-slider-area);
 }
