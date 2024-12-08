@@ -47,11 +47,11 @@ input {
 
 /* Progress Bar */
 .x-progressBar-fillColor {
-  background-color: #bd3b61;
+  background-color: var(--spice-progress-fill);
 }
 
 .x-progressBar-sliderArea {
-  background-color: #de88a1;
+  background-color: var(--spice-slider-area);
 }
 
 /* Topbar */
