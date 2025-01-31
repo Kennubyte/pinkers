@@ -276,6 +276,10 @@ div.GlueDropTarget.personal-library > *.active {
   height: var(--player-bar-height);
 }
 
+p[data-encore-id="listRowTitle"] {
+  z-index: 1000 !important;
+}
+
 .Root__now-playing-bar{
 	background-color: var(--spice-main-elevated) !important;
 	border-radius: 15px;
